@@ -81,9 +81,9 @@ public class ToDoItem {
     public Person getCreator() {
         return creator;
     }
-
-    public String getSummaryToDoItem() {
-        return "Item Id: " + getToDoItemId() + "  " + " Title: " + getTitle() + "  " + "Task Description: " + getTaskDescription() + "  " + " Dead Line: " + getDeadLine() + " " + " Over Due: " + isOverDue() + "  " + creator.getSummary();
+    @Override
+    public String toString() {
+        return "Item Id: " + getToDoItemId() + "  " + " Title: " + getTitle() + "  " + "Task Description: " + getTaskDescription() + "  " + " Dead Line: " + getDeadLine() + " " + " Over Due: " + isOverDue() ;
     }
 
 
@@ -98,6 +98,38 @@ public class ToDoItem {
             value= true;
         }
         return value;
+    }
+
+
+
+    public boolean equals(Object object) {
+        if(object==this){
+            return true;
+        }
+        if(object==null || object.getClass()!=this.getClass()){
+            return false;
+        }
+
+        ToDoItem toDoItem=(ToDoItem) object;
+        return toDoItemId==toDoItem.toDoItemId && (taskDescription.equals(toDoItem.taskDescription) || (taskDescription!=null && taskDescription.equals(toDoItem.getTaskDescription())))
+                && (title.equals(toDoItem.title) || (title!=null && title.equals(toDoItem.getTitle())))
+                && (deadLine.equals(toDoItem.deadLine) || (deadLine!=null && deadLine.equals(toDoItem.getDeadLine())))
+                && (finished==toDoItem.finished) || (finished==toDoItem.isFinished());
+
+
+    }
+
+
+    public int hashCode(Object o) {
+        final int prime=31;
+        int result=1;
+        result=prime*result+toDoItemId;
+        result=prime*result+((taskDescription==null)?0:taskDescription.hashCode());
+        result=prime*result+((title==null)?0:title.hashCode());
+        result=prime*result+((deadLine==null)?0:deadLine.hashCode());
+
+
+        return result;
     }
 }
 

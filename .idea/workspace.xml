@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cdaf129-f06f-48e8-8dc1-c25b7f9b1488" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/ToDoItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/ToDoItemTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ToDoItemTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ToDoItemTest.java" afterDir="false" />
+    <list default="true" id="1cdaf129-f06f-48e8-8dc1-c25b7f9b1488" name="Changes" comment="Oop assaignment">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/AppRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/ToDoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/ToDoItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/ToDoItemTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/ToDoItemTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ToDoItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ToDoItemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -49,55 +48,52 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/deltagare/IdeaProjects/First_Application/src/SumMultiples.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ToDoItemTest.testToDoItemGetmethods">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lexicon.fundamentals.oop.Main" />
+  <component name="RunManager" selected="JUnit.ToDoItemTest.testToDoItemHashcodeWhenEquals">
+    <configuration name="AppUserTest.testHashCodeWhenEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Assignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lexicon.fundamentals.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppUserTest" />
+      <option name="METHOD_NAME" value="testHashCodeWhenEquals" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.testNullValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppUserTest.testHashCodeWhenNotEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_Assignment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppUserTest" />
+      <option name="METHOD_NAME" value="testHashCodeWhenNotEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest.testHashCodeWhenNotEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Assignment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PersonTest" />
-      <option name="METHOD_NAME" value="testNullValues" />
+      <option name="METHOD_NAME" value="testHashCodeWhenNotEqual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.testThatGetIsWorking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP_Assignment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonTest" />
-      <option name="METHOD_NAME" value="testThatGetIsWorking" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToDoItemTaskTest.testToDoItemtask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP_Assignment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ToDoItemTaskTest" />
-      <option name="METHOD_NAME" value="testToDoItemtask" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToDoItemTest.testToDoItemGetmethods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToDoItemTest.testToDoItemEqualsMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Assignment" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ToDoItemTest" />
-      <option name="METHOD_NAME" value="testToDoItemGetmethods" />
+      <option name="METHOD_NAME" value="testToDoItemEqualsMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoItemTest.testToDoItemHashcodeWhenEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_Assignment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ToDoItemTest" />
+      <option name="METHOD_NAME" value="testToDoItemHashcodeWhenEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ToDoItemTest.testToDoItemGetmethods" />
-        <item itemvalue="JUnit.ToDoItemTaskTest.testToDoItemtask" />
-        <item itemvalue="JUnit.PersonTest.testNullValues" />
-        <item itemvalue="JUnit.PersonTest.testThatGetIsWorking" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ToDoItemTest.testToDoItemHashcodeWhenEquals" />
+        <item itemvalue="JUnit.ToDoItemTest.testToDoItemEqualsMethod" />
+        <item itemvalue="JUnit.AppUserTest.testHashCodeWhenNotEquals" />
+        <item itemvalue="JUnit.AppUserTest.testHashCodeWhenEquals" />
+        <item itemvalue="JUnit.PersonTest.testHashCodeWhenNotEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +118,13 @@
       <option name="presentableId" value="Default" />
       <updated>1656406871599</updated>
     </task>
+    <task id="LOCAL−00001" summary="Oop assaignment">
+      <created>1657027605218</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1657027605218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Oop assaignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oop assaignment" />
   </component>
 </project>

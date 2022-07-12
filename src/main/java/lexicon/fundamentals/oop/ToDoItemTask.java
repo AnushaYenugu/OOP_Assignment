@@ -56,11 +56,27 @@ public class ToDoItemTask {
         return assignee;
     }
 
-    public String getSummaryToDoTask() {
-        return "To Do Task Id: " + getToDoTaskId() + "," + " " + toDoItem.getSummaryToDoItem();
+    public String toString() {
+        return "To Do Task Id: " + getToDoTaskId() + "," + " " + toDoItem;
     }
 
+    public boolean equals(Object object) {
+        if(object==this){
+            return true;
+        }
+        if(object==null || object.getClass()!=this.getClass()){
+            return false;
+        }
 
+        ToDoItemTask toDoItemTask=(ToDoItemTask) object;
+        return toDoTaskId==toDoItemTask.toDoTaskId && (assigned==toDoItemTask.assigned || assigned==toDoItemTask.isAssigned());
 
+    }
 
+    public int hashCode(Object o) {
+        final int prime=31;
+        int result=1;
+        result=prime*result+toDoTaskId;
+        return result;
+    }
 }
