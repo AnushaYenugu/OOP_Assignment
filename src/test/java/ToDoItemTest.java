@@ -66,6 +66,7 @@ public class ToDoItemTest {
         Assertions.assertTrue(toDoItem.getTitle().hashCode()==toDoItem1.getTitle().hashCode());
         Assertions.assertTrue(toDoItem.getTaskDescription().hashCode()==toDoItem1.getTaskDescription().hashCode());
         Assertions.assertTrue(toDoItem.getDeadLine().hashCode()==toDoItem1.getDeadLine().hashCode());
+        Assertions.assertTrue(toDoItem.isFinished());
 
 
     }

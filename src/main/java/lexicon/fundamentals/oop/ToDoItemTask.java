@@ -77,6 +77,7 @@ public class ToDoItemTask {
         final int prime=31;
         int result=1;
         result=prime*result+toDoTaskId;
+        result=assigned?1:0;
         return result;
     }
 }

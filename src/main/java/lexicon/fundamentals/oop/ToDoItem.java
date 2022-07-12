@@ -127,6 +127,7 @@ public class ToDoItem {
         result=prime*result+((taskDescription==null)?0:taskDescription.hashCode());
         result=prime*result+((title==null)?0:title.hashCode());
         result=prime*result+((deadLine==null)?0:deadLine.hashCode());
+        result=finished==true?1:0;
 
 
         return result;
