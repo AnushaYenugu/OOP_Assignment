@@ -4,12 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cdaf129-f06f-48e8-8dc1-c25b7f9b1488" name="Changes" comment="Oop assaignment&#10;&#10;ToDo-Part2">
+    <list default="true" id="1cdaf129-f06f-48e8-8dc1-c25b7f9b1488" name="Changes" comment="Oop assaignment&#10;&#10;ToDo-Part2&#10;&#10;Added hashcode for boolean variables">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/model/AppUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/model/AppUserDAOImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/model/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/model/PersonDAOImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/model/ToDoItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/model/ToDoItemDAOImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/model/ToDoItemTaskDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/model/ToDoItemTaskDAOImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/sequencer/PersonIdSequencer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/sequencer/ToDoItemIdSequencer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/sequencer/ToDoItemTaskIdSequencer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lexicon/fundamentals/oop/model/AppUserDAOImplementationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lexicon/fundamentals/oop/model/PersonDAOImplementationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lexicon/fundamentals/oop/model/ToDoItemDAOImplementationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lexicon/fundamentals/oop/model/ToDoItemTaskDAOImplementationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/ToDoItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/ToDoItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/ToDoItemTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/ToDoItemTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ToDoItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ToDoItemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +33,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,58 +56,99 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/deltagare/IdeaProjects/First_Application/src/SumMultiples.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lexicon.fundamentals.oop.Main" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lexicon.fundamentals.oop.model" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lexicon.fundamentals.oop.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ToDoItemDAOImplementationTest.findByDeadLineAfter">
+    <configuration name="ToDoItemDAOImplementationTest.findByDeadLineAfter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Assignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lexicon.fundamentals.oop.*" />
+          <option name="PATTERN" value="lexicon.fundamentals.oop.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppUserTest.testHashCodeWhenEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP_Assignment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppUserTest" />
-      <option name="METHOD_NAME" value="testHashCodeWhenEquals" />
+      <option name="PACKAGE_NAME" value="lexicon.fundamentals.oop.model" />
+      <option name="MAIN_CLASS_NAME" value="lexicon.fundamentals.oop.model.ToDoItemDAOImplementationTest" />
+      <option name="METHOD_NAME" value="findByDeadLineAfter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppUserTest.testHashCodeWhenNotEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToDoItemDAOImplementationTest.findByDeadLineBefore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Assignment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppUserTest" />
-      <option name="METHOD_NAME" value="testHashCodeWhenNotEquals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lexicon.fundamentals.oop.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lexicon.fundamentals.oop.model" />
+      <option name="MAIN_CLASS_NAME" value="lexicon.fundamentals.oop.model.ToDoItemDAOImplementationTest" />
+      <option name="METHOD_NAME" value="findByDeadLineBefore" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToDoItemTest.testToDoItemEqualsMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToDoItemDAOImplementationTest.findByPersonId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Assignment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ToDoItemTest" />
-      <option name="METHOD_NAME" value="testToDoItemEqualsMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lexicon.fundamentals.oop.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lexicon.fundamentals.oop.model" />
+      <option name="MAIN_CLASS_NAME" value="lexicon.fundamentals.oop.model.ToDoItemDAOImplementationTest" />
+      <option name="METHOD_NAME" value="findByPersonId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToDoItemTest.testToDoItemHashcodeWhenEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ToDoItemDAOImplementationTest.findByTitleContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Assignment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ToDoItemTest" />
-      <option name="METHOD_NAME" value="testToDoItemHashcodeWhenEquals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lexicon.fundamentals.oop.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lexicon.fundamentals.oop.model" />
+      <option name="MAIN_CLASS_NAME" value="lexicon.fundamentals.oop.model.ToDoItemDAOImplementationTest" />
+      <option name="METHOD_NAME" value="findByTitleContains" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToDoItemDAOImplementationTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lexicon.fundamentals.oop.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lexicon.fundamentals.oop.model" />
+      <option name="MAIN_CLASS_NAME" value="lexicon.fundamentals.oop.model.ToDoItemDAOImplementationTest" />
+      <option name="METHOD_NAME" value="remove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ToDoItemTest.testToDoItemHashcodeWhenEquals" />
-        <item itemvalue="JUnit.ToDoItemTest.testToDoItemEqualsMethod" />
-        <item itemvalue="JUnit.AppUserTest.testHashCodeWhenNotEquals" />
-        <item itemvalue="JUnit.AppUserTest.testHashCodeWhenEquals" />
+        <item itemvalue="JUnit.ToDoItemDAOImplementationTest.findByDeadLineAfter" />
+        <item itemvalue="JUnit.ToDoItemDAOImplementationTest.remove" />
+        <item itemvalue="JUnit.ToDoItemDAOImplementationTest.findByDeadLineBefore" />
+        <item itemvalue="JUnit.ToDoItemDAOImplementationTest.findByPersonId" />
+        <item itemvalue="JUnit.ToDoItemDAOImplementationTest.findByTitleContains" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +185,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1657629740877</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Oop assaignment&#10;&#10;ToDo-Part2&#10;&#10;Added hashcode for boolean variables">
+      <created>1657631901355</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1657631901355</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Oop assaignment" />
     <MESSAGE value="Oop assaignment&#10;&#10;ToDo-Part2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oop assaignment&#10;&#10;ToDo-Part2" />
+    <MESSAGE value="Oop assaignment&#10;&#10;ToDo-Part2&#10;&#10;Added hashcode for boolean variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oop assaignment&#10;&#10;ToDo-Part2&#10;&#10;Added hashcode for boolean variables" />
   </component>
 </project>
